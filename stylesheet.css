@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  color: #3d405b;
+  background-color: #f4f1de;
+}
+
+h1 {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.tagline {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.eryk_container {
+  display: flex;
+  justify-content: center;
+}
+
+.eryk {
+  max-width: 75px;
+  border-radius: 50%;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  justify-content: center;
+  max-width: 35px;
+  padding: 5px;
+}
+
+footer {
+  line-height: 0.25;
+}
