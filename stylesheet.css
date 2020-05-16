@@ -8,47 +8,72 @@ body {
 
 h1 {
   font-weight: 700;
-  display: flex;
   justify-content: center;
+}
+
+p {
+  margin-top: 1em;
+}
+
+/* Picture, tagline, and social icons aligned to center.*/
+
+.navigation {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #81b29a;
+  border-radius: 2%;
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.header {
+  text-align: center;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #81b29a;
+  border-radius: 2%;
+}
+
+.image_eryk {
+  max-width: 75px;
+  border-radius: 50%;
+  margin-top: 1em;
 }
 
 .tagline {
   font-weight: 300;
   font-size: 1rem;
-  text-align: center;
-}
-
-p {
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
-.eryk_container {
-  display: flex;
-  justify-content: center;
-}
-
-.eryk {
-  max-width: 75px;
-  border-radius: 50%;
-}
-
-.social-container {
-  display: flex;
-  justify-content: center;
+  margin: auto 1em auto 1em;
 }
 
 .social-icons img {
-  justify-content: center;
   max-width: 35px;
   padding: 5px;
+  margin-bottom: 1em;
 }
 
-footer {
-  line-height: 0.25;
+/* Rest of the website. */
+
+.content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #e07a5f;
+  border-radius: 2%;
+}
+
+.text.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f2cc8f;
+  border-radius: 2%;
+
+  text-align: center;
 }
