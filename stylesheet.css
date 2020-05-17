@@ -1,79 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-  font-family: 'Oxygen', sans-serif;
-  color: #3d405b;
-  background-color: #f4f1de;
+  background-color: #3d405b;
 }
 
 h1 {
-  font-weight: 700;
-  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 2.8rem;
+  color: #f4f1de;
+  padding-top: 5rem;
 }
 
 p {
-  margin-top: 1em;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #f4f1de;
 }
 
-/* Picture, tagline, and social icons aligned to center.*/
-
-.navigation {
-  margin-top: 0;
-  padding-top: 0;
-  background-color: #81b29a;
-  border-radius: 2%;
-
-  display: flex;
-  justify-content: space-evenly;
-
+.Monzo {
+  text-decoration: none;
+  color: #e07a5f;
 }
 
-.header {
-  text-align: center;
-
-  margin-top: 1em;
-  margin-bottom: 1em;
-  background-color: #81b29a;
-  border-radius: 2%;
+.rwi {
+  color: #f2cc8f;
 }
 
-.image_eryk {
-  max-width: 75px;
-  border-radius: 50%;
-  margin-top: 1em;
-}
-
-.tagline {
-  font-weight: 300;
-  font-size: 1rem;
-  margin: auto 1em auto 1em;
-}
-
-.social-icons img {
-  max-width: 35px;
-  padding: 5px;
-  margin-bottom: 1em;
-}
-
-/* Rest of the website. */
-
-.content {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  background-color: #e07a5f;
-  border-radius: 2%;
-}
-
-.text.container {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.footer {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  background-color: #f2cc8f;
-  border-radius: 2%;
-
-  text-align: center;
+.nfs {
+  color: #247ba0;
 }
